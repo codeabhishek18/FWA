@@ -1,0 +1,47 @@
+.container
+{
+    background-color: var(--primary-color);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container>h1
+{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.founder
+{
+    height: 300px;
+    width: fit-content;   
+}
+
+.card
+{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.content
+{
+    color: white;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.readmore
+{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+

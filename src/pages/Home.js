@@ -1,4 +1,5 @@
 import About from "../components/about/About"
+import Founder from "../components/founder/Founder"
 import Herosection from "../components/herosection/Herosection"
 import Navbar from "../components/navbar/Navbar"
 
@@ -9,7 +10,7 @@ const Home = () =>
         <div>
             <Navbar/>
             <Herosection/>
-            <About/>
+            <Founder/>
         </div>
     )
 }

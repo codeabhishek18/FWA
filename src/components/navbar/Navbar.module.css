@@ -1,0 +1,67 @@
+.container, .navigation
+{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navigation
+{
+    column-gap: 40px;
+    height: 100px;
+    background-color: var(--primary-color);
+    width: 50%;
+    justify-content: end;
+    padding-right: 50px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.container
+{
+    justify-content: space-between;
+}
+
+.logo
+{
+    font-size: 50px;
+    font-weight: 800;
+    color: var(--primary-color);
+    padding-left: 50px;
+    position: relative;
+}
+
+.title
+{
+    font-size: 60px;
+    position: absolute;
+    left:40px;
+    top: -5px;
+}
+
+.crown
+{
+    width: 180px;
+    height: fit-content;
+    position: absolute;
+    left: 15px;
+    top: -60px;
+    z-index:-1;
+    background-color: white;
+}
+
+.register
+{
+    padding: 8px;
+    width: 70px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart
+{
+    height: 30px;
+    width: 30px;
+}
+

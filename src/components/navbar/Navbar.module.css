@@ -17,6 +17,11 @@
     border-bottom-right-radius: 100px;
 }
 
+.navigation>span
+{
+    cursor: pointer;
+}
+
 .container
 {
     justify-content: space-between;
@@ -24,30 +29,10 @@
 
 .logo
 {
-    font-size: 50px;
-    font-weight: 800;
-    color: var(--primary-color);
-    padding-left: 50px;
-    position: relative;
-}
-
-.title
-{
-    font-size: 60px;
-    position: absolute;
-    left:40px;
-    top: -5px;
-}
-
-.crown
-{
-    width: 180px;
-    height: fit-content;
-    position: absolute;
-    left: 15px;
-    top: -60px;
-    z-index:-1;
-    background-color: white;
+    height: 100px;
+    width: fit-content;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
 .register
@@ -64,5 +49,6 @@
 {
     height: 30px;
     width: 30px;
+    cursor: pointer;
 }
 

@@ -2,7 +2,6 @@ import registerStyles from './Register.module.css'
 
 const Register = ({setRegister}) =>
 {
-
     return(
         <div className={registerStyles.container}>
             <div className={registerStyles.form}>

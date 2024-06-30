@@ -1,0 +1,62 @@
+.container
+{
+    background-color: var(--primary-color);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.header>h1
+{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.logo
+{
+    height: 80px;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+.social
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.row
+{
+    display: flex;
+    column-gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.row>p
+{
+    margin: 0;
+}
+
+.row>img
+{
+    height: 30px;
+    width: 30px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}

@@ -18,6 +18,8 @@
 {
     height: 300px;
     width: fit-content;   
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 50%;
 }
 
 .card
@@ -43,5 +45,10 @@
     cursor: pointer;
     font-size: 14px;
     margin-top: 10px;
+}
+
+li
+{
+    list-style: none;
 }
 

@@ -12,7 +12,7 @@ const Footer = () =>
                 <img className={footerStyles.logo} src={logo} alt="logo"/>
                 <h1>Flourish With Aish</h1>
             </div>
-            <hr/>
+            <div className={footerStyles.hr}></div>
             <div className={footerStyles.social}>
                 <div className={footerStyles.row}>
                     <img src={ig} alt="instagram"/>

@@ -1,3 +1,6 @@
+import Footer from '../../components/footer/Footer'
+import Header from '../../components/header/Header'
+import Navbar from '../../components/navbar/Navbar'
 import blogs from './Blogs.module.css'
 
 const Blogs = () =>
@@ -5,9 +8,9 @@ const Blogs = () =>
 
     return(
         <div className={blogs.container}>
-            <div className={blogs.header}>
-                <h1>Blogs</h1>
-            </div>
+            <Navbar/>
+            <Header title='Blogs'/>
+            <Footer/>
         </div>
     )
 }

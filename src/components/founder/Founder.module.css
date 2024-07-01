@@ -14,37 +14,64 @@
     font-weight: 700;
 }
 
-.founder
+.founder>img
 {
-    height: 300px;
+    height: 200px;
     width: fit-content;   
     background-color: rgba(0,0,0,0.1);
     border-radius: 50%;
 }
 
+.founder
+{
+    height: 80%;
+}
+
 .card
 {
     display: flex;
-    align-items: center;
     column-gap: 30px;
 }
 
 .content
 {
     color: white;
-    font-size: 24px;
-    line-height: 50px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content>ul
+{
+    height: 80%;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.founder>h1
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
 }
 
 .readmore
 {
-    padding: 10px 15px;
+    padding: 13px;
     border-radius: 5px;
     background-color: white;
     border: 0;
     cursor: pointer;
     font-size: 14px;
-    margin-top: 10px;
 }
 
 li

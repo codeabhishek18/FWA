@@ -1,3 +1,6 @@
+import Footer from '../../components/footer/Footer'
+import Header from '../../components/header/Header'
+import Navbar from '../../components/navbar/Navbar'
 import mentor from './Mentor.module.css'
 
 const Mentor = () =>
@@ -5,9 +8,9 @@ const Mentor = () =>
 
     return(
         <div className={mentor.container}>
-            <div className={mentor.header}>
-                <h1>Mentor - Aishwarya</h1>
-            </div>
+            <Navbar/>
+            <Header title='Aishwarya, Mentor'/>
+            <Footer/>
         </div>
     )
 }

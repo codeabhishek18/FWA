@@ -1,0 +1,27 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 5px;
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 50px;
+    display: none;
+}
+
+.row
+{
+    height: 6px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+@media screen and (max-width:1120px)
+{
+    .container
+    {
+        display: flex;
+    }
+}

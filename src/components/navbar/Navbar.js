@@ -4,22 +4,20 @@ import crown from '../../assets/crown.png'
 import Register from '../register/Register';
 import {useState} from 'react'
 import { useNavigate } from 'react-router-dom';
+import Hamburger from '../hamburger/Hamburger';
+import Navigation from '../navigation/Navigation';
 
 const Navbar = () =>
 {
     const [ register, setRegister ] = useState(false);
+    const [ sidebar, setSidebar ] = useState(true) 
     const navigate = useNavigate();
 
     return(
         <div className={navbarStyles.container}>
-            <img className={navbarStyles.logo} src={crown} alt="logo"/>
-            <div className={navbarStyles.navigation}>
-                <span onClick={()=> navigate('/blogs')}>Blogs</span>
-                <span onClick={()=> navigate('/announcements')}>Announcements</span>
-                <span onClick={()=> navigate('/courses')}>Courses</span>
-                <img className={navbarStyles.cart} src={cart} alt="cart" onClick={()=> navigate('/cart')}/>
-                <button className={navbarStyles.register} onClick={()=> setRegister(true)}>Register</button>
-            </div>
+            <img className={navbarStyles.logo} src={crown} alt="logo" onClick={()=> navigate('/')}/>
+            <Navigation setRegister={setRegister} sidebar={sidebar} setSidebar={setSidebar}/>
+            <Hamburger setSidebar={setSidebar}/>
             {register && <Register setRegister={setRegister}/>}
         </div>
     )

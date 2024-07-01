@@ -1,54 +1,18 @@
-.container, .navigation
+.container
 {
     display: flex;
     align-items: center;
     color: white;
-}
-
-.navigation
-{
-    column-gap: 30px;
-    height: 100px;
-    background-color: var(--primary-color);
-    width: 50%;
-    justify-content: end;
-    padding-right: 50px;
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-}
-
-.navigation>span
-{
-    cursor: pointer;
-}
-
-.container
-{
     justify-content: space-between;
 }
 
 .logo
 {
-    height: 100px;
+    height: 90px;
     width: fit-content;
-    margin-left: 50px;
     margin-top: 10px;
+    cursor: pointer;
+    padding-left: 50px;
 }
 
-.register
-{
-    padding: 8px;
-    width: 70px;
-    border: 0;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: white;
-}
-
-.cart
-{
-    height: 30px;
-    width: 30px;
-    cursor: pointer;
-}
 

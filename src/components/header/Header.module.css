@@ -14,3 +14,28 @@
     font-size: 48px;
     color: white;
 }
+
+@media screen and (max-width: 920px) 
+{
+    .container>h1
+    {
+        font-size: 40px; 
+    }
+}
+
+@media screen and (max-width: 840px) 
+{
+    .container
+    {
+        width: 100%; 
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 420px) 
+{
+    .container>h1
+    {
+        font-size: 30px; 
+    }
+}

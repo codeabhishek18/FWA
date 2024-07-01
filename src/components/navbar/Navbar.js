@@ -10,7 +10,7 @@ import Navigation from '../navigation/Navigation';
 const Navbar = () =>
 {
     const [ register, setRegister ] = useState(false);
-    const [ sidebar, setSidebar ] = useState(true) 
+    const [ sidebar, setSidebar ] = useState(false) 
     const navigate = useNavigate();
 
     return(

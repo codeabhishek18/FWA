@@ -18,5 +18,35 @@
 .services>img
 {
     width: 25%;
-    height: 200px;
+    height: fit-content;
+}
+
+@media screen and (max-width:1120px) 
+{
+    .services>img
+    {
+        width: 50%;
+    }    
+}
+
+
+@media screen and (max-width:820px) 
+{
+    .services>img
+    {
+        width: 100%;
+    }    
+}
+
+@media screen and (max-width:640px)
+{
+    .container>h1
+    {
+        font-size: 48px;
+    }
+
+    .content>p
+    {
+        font-size: 16px;
+    }  
 }

@@ -61,7 +61,6 @@
         width: 350px;
         flex-direction: column;
         position: fixed;
-        top:0;
         right: 0;
         border-radius: 0;
         justify-content: center;
@@ -72,16 +71,17 @@
         background-color: white;
         border-radius: 0 0 30px 30px;
         box-shadow: 3px 0 5px;
+        transition: top 0.5s ease-in-out;
     }
 
     .hide
     {
-        transform: translateY(-350px);
+        top: -100%;
     }
 
     .show
     {
-        transform: translateY(0);
+        top:0;
     }
 
     .close
@@ -103,5 +103,11 @@
     .container
     {
         width: 100%;
+    }
+
+    .close
+    {
+        right: 24px;
+        top: 12px
     }
 }

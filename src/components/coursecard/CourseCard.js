@@ -7,7 +7,7 @@ const CourseCard = ({title, image, price, striked}) =>
         <div className={card.container}>
             <p className={card.title}>{title}</p>
             <img src={image} alt='img'/>
-            <p className={card.price}>₹ {price} <span className={card.striked}>{striked}</span></p>
+            <p className={card.price}>₹{price} <span className={card.striked}>₹{striked}</span></p>
             <div className={card.footerbuttons}>
                 <button className={card.details}>Details</button>
                 <button className={card.purchase}>Buy now</button>

@@ -25,3 +25,11 @@
         display: flex;
     }
 }
+
+@media screen and (max-width:420px) 
+{
+    .container
+    {
+        margin-right: 20px;
+    }    
+}

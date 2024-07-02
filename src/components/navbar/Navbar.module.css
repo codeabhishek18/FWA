@@ -10,9 +10,17 @@
 {
     height: 90px;
     width: fit-content;
-    margin-top: 10px;
     cursor: pointer;
-    padding-left: 50px;
+    padding: 10px 0 0 50px;
+    z-index: 1;
+}
+
+@media screen and (max-width:420px) 
+{
+    .logo
+    {
+        padding-left: 20px;
+    }    
 }
 
 

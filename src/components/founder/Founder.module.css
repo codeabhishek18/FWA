@@ -17,9 +17,7 @@
 .founder>img
 {
     height: 200px;
-    width: fit-content;   
-    background-color: rgba(0,0,0,0.1);
-    border-radius: 50%;
+    width: fit-content;
 }
 
 .founder
